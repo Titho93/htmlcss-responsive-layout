@@ -142,14 +142,17 @@ footer {
 
   #benefits .squares {
     display: flex;
+    justify-content: center;
     flex-wrap: wrap;
-    gap: 30px;
+    gap: 20px;
   }
 
   #benefits .squares .card {
-   width: calc(100 / 3);
-   margin-top: 0;
+    width: 48%;
+    margin: 0;
   }
+
+  
 
 }
 
