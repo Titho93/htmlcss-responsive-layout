@@ -4,3 +4,35 @@
   box-sizing: border-box;
 }
 
+.violet {
+  background-color: blueviolet;
+}
+
+.red {
+  background-color: red;
+}
+
+.blue {
+  background-color: #0C84FB;
+}
+
+.container {
+  width: 90%;
+  max-width: 575px;
+  margin: 0 auto;
+}
+
+/* Header  */
+
+.nav {
+  position: fixed;
+  width: 100%;
+}
+
+.nav .container {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 0;
+}
+
+/* Main  */
