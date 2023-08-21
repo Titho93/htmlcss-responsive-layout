@@ -56,7 +56,6 @@ main .container {
 }
 
 /* section 2  */
-
 #planning {
   width: 100%;
 }
@@ -67,3 +66,7 @@ main .container {
 }
 
 /* section 3  */
+#testimonials .bio {
+  width: 100%;
+  height: 350px;
+}
