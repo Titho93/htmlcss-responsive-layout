@@ -62,11 +62,27 @@ main .container {
 
 #planning .square {
   width: 100%;
+  /* eliminare  */
   height: 630px;
 }
 
 /* section 3  */
 #testimonials .bio {
   width: 100%;
+  /* eliminare  */
   height: 350px;
+}
+
+/* section 4  */
+#benefits .bio {
+  width: 100%;
+  /* eliminare  */
+  height: 40px;
+}
+
+/* section 5  */
+#about .bio {
+  width: 100%;
+  /* eliminare  */
+  height: 950px;
 }
