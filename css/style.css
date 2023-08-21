@@ -30,7 +30,7 @@
 /* Header  */
 
 .nav {
-  /* position: fixed; */
+  position: fixed;
   width: 100%;
 }
 
@@ -43,8 +43,8 @@
 /* Main  */
 
 /* section 1  */
-main .container {
-  padding: 40px 0;
+#application .container  {
+  padding-top: 120px;
   display: flex;
   flex-wrap: wrap;
 }
@@ -152,8 +152,25 @@ footer {
     margin: 0;
   }
 
-  
+  #about .container {
+    display: flex;
+  }
 
+  #about .bio {
+    width: 60%;
+  }
+
+  #about .card {
+    width: 40%;
+  }
+
+  #start .container {
+    width: 80%;
+  }
+
+  footer .container {
+    width: 60%;
+  }
 }
 
 @media screen and (min-width: 1200px) {
