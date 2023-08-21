@@ -86,3 +86,10 @@ main .container {
   /* eliminare  */
   height: 950px;
 }
+
+/* section 6  */
+#start .login {
+  width: 100%;
+  /* eliminare  */
+  height: 500px;
+}
