@@ -133,51 +133,59 @@
 #planning .square {
   width: 100%;
   padding-top: 50px;
-  /* eliminare  */
-  height: 700px;
 }
 
-#planning .image {
-  width: 100%;
-  height: 300px;
+#planning .image img {
+  width: 430px;
+  padding: 40px 0;
 }
 
 #planning .bio h4 {
   color: white;
-  font-size: 25px;
-  padding: 50px 0;
+  font-size: 45px;
+  padding: 60px 0;
 }
 
 #planning .bio p {
   color: white;
+  padding-bottom: 60px;
+  font-size: 25px;
+  line-height: 40px;
 }
 
 #planning .card {
   text-align: center;
+  border-radius: 60px;
+}
+
+#planning .card img {
+  width: 100%;
+  padding: 50px 0;
 }
 
 #planning .card h4 {
-  font-size: 20px;
+  font-size: 30px;
 }
 
 #planning .card p {
   padding: 20px 0;
+  font-size: 25px;
+  line-height: 40px;
+}
+
+#planning .card .arrow {
+  padding-top: 30px;
+  padding-bottom: 60px;
 }
 
 #planning .card a {
   color: black;
   font-size: 25px;
   text-decoration: none;
-  padding: 5px 13px;
+  padding: 14px 18px;
   background-color: #9792E4;
   border-radius: 50%;
   border: 1px solid black;
-}
-
-#planning .card .img {
-  width: 100%;
-  height: 300px;
-  background-color: red;
 }
 
 /* Testimonials  */
@@ -197,12 +205,13 @@
 }
 
 #testimonials .bio h3 {
-  font-size: 35px;
+  font-size: 45px;
   color: #9692E4;
 }
 
 #testimonials .bio p {
-  font-size: 20px;
+  font-size: 30px;
+  line-height: 50px;
   padding: 35px 0;
 }
 
@@ -214,21 +223,25 @@
   flex-direction: column;
 }
 
-#testimonials .card .img {
+#testimonials .card .img img {
   width: 200px;
   height: 200px;
+  object-fit: cover;
   border-radius: 50%;
   background-color: white;
   margin: 25px auto;
+  
 }
 
 #testimonials .card .name p {
-  font-size: 22px;
+  font-size: 25px;
   padding-bottom: 25px;
+  line-height: 40px;
 }
 
 #testimonials .card .name h3 {
   font-size: 25px;
+  padding-bottom: 40px;
 }
 
 /* Benefits  */
