@@ -60,7 +60,6 @@
 
 .card {
   width: 100%;
-  height: 500px;
   border-radius: 20px;
 }
 
@@ -82,20 +81,20 @@
 
 }
 
-#application .card h5 {
-  color: #0882FB;
-  font-size: 20px;
-  padding: 20px 0;
-}
-
 #application .card .description {
   width: 80%;
   margin: 0 auto;
 }
 
-.first .card .image {
-  width: 100%;
-  height: 200px;
+#application .card h5 {
+  color: #0882FB;
+  font-size: 30px;
+  padding: 40px 0;
+}
+
+.first .card .image img {
+  width: 350px;
+  padding-top: 40px;
 }
 
 .first .card:first-child p {
@@ -103,11 +102,24 @@
 }
 
 .first .card a {
-  padding: 10px 30px;
+  padding: 10px 60px;
   background-color: blue;
-  border-radius: 20px;
+  border-radius: 30px;
   color: white;
   text-decoration: none;
+  font-size: 25px;
+}
+
+#application .card p {
+  font-size: 22px;
+  line-height: 30px;
+  padding-bottom: 40px;
+}
+
+.card .description .img {
+  font-size: 100px;
+  color: #0184FD;
+  padding-top: 50px;
 }
 
 /* Planning  */
