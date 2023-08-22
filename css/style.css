@@ -269,8 +269,40 @@
 
 #about .bio {
   width: 100%;
-  /* eliminare  */
-  height: 950px;
+}
+
+#about .bio h2 {
+  color: #9692E4;
+  font-size: 55px;
+  padding-top: 20px;
+}
+
+#about .bio p {
+  font-size: 22px;
+  padding: 30px 0;
+  line-height: 50px;
+}
+
+#about .card .img {
+  width: 180px;
+  height: 180px;
+  background-color: grey;
+  border-radius: 50%;
+}
+
+#about .card h4 {
+  color: #9692E4;
+  font-size: 35px;
+  padding: 30px 0;
+}
+
+#about .card a {
+  color: white;
+  background-color: #9692E4;
+  padding: 10px;
+  border-radius: 20px;
+  font-size: 22px;
+  text-decoration: none;
 }
 
 /* Start  */
