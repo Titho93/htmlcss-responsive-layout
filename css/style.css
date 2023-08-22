@@ -313,8 +313,45 @@
 
 #start .login {
   width: 100%;
-  /* eliminare  */
-  height: 500px;
+  text-align: center;
+}
+
+#start .login h5 {
+  font-size: 18px;
+  color: #D6D5F4;
+}
+
+#start .login h4 {
+  color: white;
+  font-size: 35px;
+  padding: 20px 0;
+}
+
+#start .login h2 {
+  color: #FDC15F;
+  font-size: 55px;
+  padding: 35px 0;
+}
+
+#start .login p {
+  color: white;
+  line-height: 30px;
+  font-size: 20px;
+  padding-bottom: 40px;
+}
+
+#start .login .button {
+  color: #9692E4;
+  background-color: white;
+  padding: 20px 85px;
+  border-radius: 40px;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+#start .login .privacy {
+  padding: 40px 0;
+  font-size: 18px;
 }
 
 /* footer  */
