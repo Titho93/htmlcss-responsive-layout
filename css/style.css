@@ -136,7 +136,7 @@
 }
 
 #planning .image img {
-  width: 430px;
+  width: 100%;
   padding: 40px 0;
 }
 
@@ -434,6 +434,10 @@ footer p a {
     width: 203%;
   }
 
+  .first .card:first-child .description {
+    text-align: start;
+  }
+
   #application .second {
     display: flex;
     gap: 10px;
@@ -445,6 +449,26 @@ footer p a {
 
   #planning {
     flex-direction: row;
+  }
+
+  #testimonials .card .container {
+    display: flex;
+    flex-direction: row;
+  }
+
+  #testimonials .card .img {
+    margin-left: -40px;
+  }
+
+  #testimonials .card .name {
+    text-align: start;
+    padding-top: 60px;
+    padding-left: 30px;
+  }
+
+  #testimonials .card .name p {
+    font-size: 20px;
+    line-height: 30px;
   }
 
   #benefits .squares {
@@ -468,7 +492,13 @@ footer p a {
   }
 
   #about .card {
-    width: 250px;
+    width: 300px;
+    padding-left: 50px;
+  }
+
+  #about .card .quotation-marks i {
+    position: absolute;
+    left: 60px;
   }
 
   #start .container {
