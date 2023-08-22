@@ -6,7 +6,7 @@
 }
 
 .violet {
-  background-color: blueviolet;
+  background-color: #9692E4;
 }
 
 .red {
@@ -34,15 +34,19 @@
   width: 100%;
 }
 
-.nav .container {
+.nav .container .row {
   display: flex;
   justify-content: space-between;
   padding: 30px 0;
 }
 
+.nav .row .menu .hamburgher {
+  display: none;
+}
+
 /* Main  */
 
-/* section 1  */
+/* Application  */
 #application .container  {
   padding-top: 120px;
   display: flex;
@@ -86,28 +90,80 @@
 
 .first .card .image {
   width: 100%;
-  height: 270px;
+  height: 200px;
 }
 
 .first .card:first-child p {
   text-align: start;
 }
 
+.first .card a {
+  padding: 10px 30px;
+  background-color: blue;
+  border-radius: 20px;
+  color: white;
+  text-decoration: none;
+}
 
-
-/* section 2  */
+/* Planning  */
 #planning {
   width: 100%;
   padding-bottom: 60px;
+  display: flex;
+  flex-direction: column;
 }
 
 #planning .square {
   width: 100%;
+  padding-top: 50px;
   /* eliminare  */
   height: 700px;
 }
 
-/* section 3  */
+#planning .image {
+  width: 100%;
+  height: 300px;
+}
+
+#planning .bio h4 {
+  color: white;
+  font-size: 25px;
+  padding: 50px 0;
+}
+
+#planning .bio p {
+  color: white;
+}
+
+#planning .card {
+  text-align: center;
+}
+
+#planning .card h4 {
+  font-size: 20px;
+}
+
+#planning .card p {
+  padding: 20px 0;
+}
+
+#planning .card a {
+  color: black;
+  font-size: 25px;
+  text-decoration: none;
+  padding: 5px 13px;
+  background-color: #9792E4;
+  border-radius: 50%;
+  border: 1px solid black;
+}
+
+#planning .card .img {
+  width: 100%;
+  height: 300px;
+  background-color: red;
+}
+
+/* Testimonials  */
 #testimonials {
   padding-bottom: 60px;
 }
@@ -122,7 +178,7 @@
   margin: 30px 0;
 }
 
-/* section 4  */
+/* Benefits  */
 #benefits {
   padding-bottom: 60px;
 }
@@ -141,7 +197,7 @@
   margin: 30px 0;
 }
 
-/* section 5  */
+/* About  */
 
 #about {
   padding: 60px 0;
@@ -153,7 +209,7 @@
   height: 950px;
 }
 
-/* section 6  */
+/* Start  */
 
 #start {
   padding: 60px 0;
@@ -198,6 +254,10 @@ footer {
     width: calc(100 / 3);
   }
 
+  #planning {
+    flex-direction: row;
+  }
+
   #benefits .squares {
     display: flex;
     justify-content: center;
@@ -219,7 +279,7 @@ footer {
   }
 
   #about .card {
-    width: 40%;
+    width: 250px;
   }
 
   #start .container {
@@ -236,12 +296,25 @@ footer {
     width: 75%;
   }
 
+  .nav .row .menu .hamburgher {
+    display: block;
+  }
+
+  .nav .row .menu .list-menu {
+    display: none;
+  }
+
+  .nav .row .menu .hamburgher {
+    display: none;
+  }
+
+  .nav .row .menu .list-menu {
+    display: none;
+  }
+
   #planning .container {
     display: flex;
     padding: 80px 0;
-  }
-
-  #planning .square {
   }
 
   #planning .card {
