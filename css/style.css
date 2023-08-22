@@ -538,6 +538,10 @@ footer p a {
     width: 75%;
   }
 
+  .nav .container .row {
+    padding: 15px 0;
+  }
+
   #application .card {
     flex-direction: row;
   }
