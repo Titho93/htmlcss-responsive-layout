@@ -291,6 +291,10 @@
   text-decoration: none;
 }
 
+#benefits .squares .card .more {
+  padding-bottom: 40px;
+}
+
 /* About  */
 
 #about {
@@ -313,7 +317,22 @@
   line-height: 50px;
 }
 
-#about .card .img {
+#about .card {
+  position: relative;
+}
+
+#about .card .quotation-marks {
+  position: absolute;
+  top: 0;
+  left: 140px;
+  color: #9692E4;
+}
+
+#about .card .quotation-marks i {
+  font-size: 60px;
+}
+
+#about .card .img img {
   width: 180px;
   height: 180px;
   background-color: grey;
@@ -329,7 +348,7 @@
 #about .card a {
   color: white;
   background-color: #9692E4;
-  padding: 10px;
+  padding: 10px 15px;
   border-radius: 20px;
   font-size: 22px;
   text-decoration: none;
