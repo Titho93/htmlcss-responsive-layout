@@ -40,7 +40,12 @@
   padding: 30px 0;
 }
 
-.nav .row .menu .hamburgher {
+.nav .row .menu .hamburgher i {
+  font-size: 40px;
+  color: white;
+}
+
+.nav .row .menu .list-menu {
   display: none;
 }
 
@@ -440,18 +445,14 @@ footer p a {
   }
 
   .nav .row .menu .hamburgher {
+    display: none;
+  }
+
+  .nav .row .menu .list-menu {
     display: block;
   }
 
-  .nav .row .menu .list-menu {
-    display: none;
-  }
-
   .nav .row .menu .hamburgher {
-    display: none;
-  }
-
-  .nav .row .menu .list-menu {
     display: none;
   }
 
