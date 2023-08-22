@@ -31,6 +31,7 @@
 
 .nav {
   position: fixed;
+  z-index: 999;
   width: 100%;
 }
 
@@ -531,6 +532,28 @@ footer p a {
     display: none;
   }
 
+  #application .card .description {
+    width: 350px;
+  }
+
+  #application .card img {
+    width: 250px;
+  }
+
+  #application .card .img {
+    padding-top: 30px;
+    font-size: 70px;
+  }
+
+  #application .card h5 {
+    font-size: 22px;
+    padding: 20px 0;
+  }
+
+  #application .card p {
+    font-size: 18px;
+  }
+
   #planning .container {
     display: flex;
     padding: 80px 0;
@@ -541,6 +564,15 @@ footer p a {
     margin-top: 200px;
     display: flex;
     flex-direction: column;
+  }
+
+  #planning .square {
+    padding-right: 50px;
+  }
+
+  #planning .card {
+    display: flex;
+    justify-content: end;
   }
 
   #testimonials .card .container {
