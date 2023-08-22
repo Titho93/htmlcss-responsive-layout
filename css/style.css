@@ -280,6 +280,7 @@
 #benefits .squares .card p {
   font-size: 22px;
   padding-bottom: 30px;
+  line-height: 40px;
 }
 
 #benefits .squares .card a {
