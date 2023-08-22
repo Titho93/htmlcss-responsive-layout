@@ -219,10 +219,11 @@
   padding-bottom: 60px;
 }
 
-#benefits .bio {
-  width: 100%;
-  /* eliminare  */
-  height: 40px;
+#benefits h3 {
+  text-align: center;
+  color: white;
+  font-size: 40px;
+  padding: 60px 0;
 }
 
 #benefits .squares {
@@ -231,6 +232,33 @@
 
 #benefits .squares .card{
   margin: 30px 0;
+}
+
+#benefits .squares .card h2 {
+  color: #9692E4;
+  font-size: 60px;
+  padding-top: 40px;
+}
+
+#benefits .squares .card h3 {
+  color: #9692E4;
+  font-size: 30px;
+  padding: 30px 0;
+  text-align: start;
+}
+
+#benefits .squares .card p {
+  font-size: 22px;
+  padding-bottom: 30px;
+}
+
+#benefits .squares .card a {
+  color: white;
+  background-color: #9692E4;
+  padding: 10px 45px;
+  font-size: 22px;
+  border-radius: 20px;
+  text-decoration: none;
 }
 
 /* About  */
